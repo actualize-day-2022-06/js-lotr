@@ -52,7 +52,7 @@ function testMakeMiddleEarth(){
 
 // Task 2
 function testTakeAttendance() {
-  if(typeof takeAttendance === "function"){
+  if (typeof takeAttendance === "function"){
     if (takeAttendance() === 4) {
       makeHobbits();
       console.log("Task 2 completed! Hobbits are in the shire.");
